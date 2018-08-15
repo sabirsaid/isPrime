@@ -28,7 +28,7 @@ function getPrimes($n1, $n2) {
 
         if(is_prime($i)){
             if($negatif){
-            	$nmrPremisers [] = "-".$i;
+            	$nmbPrimes [] = "-".$i;
             }
             $nmbPrimes [] = $i;
         }
